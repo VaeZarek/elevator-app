@@ -1,14 +1,12 @@
 # elevator-app
-Coding challenge for Bluestaq September 19th 2025
+Coding challenge for Bluestaq, September 19th 2025
 
-# How to run docker container
-First build the docker container using:
+# How to run Docker container
+First, navigate to the directory the repo is contained in. Once there, execute the following to build the Docker image from the provided Dockerfile:
 
-```docker build -t elevator-app .```
+```docker build -t elevator-app .``` _(Might need to use sudo if Docker is installed by root)_
 
-_(Might need to use sudo if Docker is installed by root)_
-
-Once the build is done, use the following to run the docker container:
+Once the build is done, use the following to run the Docker container:
 
 ```docker run -it elevator-app```
 
